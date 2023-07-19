@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "vite-scanner",
+  "version": "0.0.1",
+  "description": "a chrome extension dev vite-scanner",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@samrum/vite-plugin-web-extension": "^5.0.0",
+    "@types/chrome": "^0.0.238",
+    "@types/node": "^20.3.1",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "fast-glob": "^3.3.0",
+    "html5-qrcode": "^2.3.8",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-svg-loader": "^4.0.0",
+    "vue-tsc": "^1.4.2"
+  }
+}
