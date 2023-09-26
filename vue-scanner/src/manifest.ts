@@ -6,11 +6,21 @@ const manifest: chrome.runtime.Manifest = {
   version: pkg.version,
   description: pkg.description,
   host_permissions: ['*://*/*'],
+//  icons: {
+//    "16" : "/assets/logo.png",
+//    "48" : "/assets/logo.png",
+//    "128" : "/assets/logo.png"
+//  },
   background: {
     service_worker: 'src/entries/background/main.ts',
   },
   action: {
     default_popup: 'src/entries/popup/index.html',
+//    default_icon: {
+//      "16" : "/assets/logo.png",
+//      "48" : "/assets/logo.png",
+//      "128" : "/assets/logo.png"
+//    }
   },
   options_ui: {
     page: 'src/entries/options/index.html',
