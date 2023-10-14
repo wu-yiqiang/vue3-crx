@@ -1,8 +1,14 @@
 {
   "private": true,
-  "name": "vite-scanner",
-  "version": "0.0.1",
-  "description": "a chrome extension dev vite-scanner",
+  "name": "Scanner",
+  "version": "0.1.0",
+  "description": "base on vite、vue3 and typescript Teno create a chrome extension dev scanner",
+  "author": {
+    "name": "Sutter",
+    "email": "wu_yiqiang@outlook.com",
+    "url": "https://github.com/wu-yiqiang/vue3-crx/tree/main/vue-scanner"
+  },
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
